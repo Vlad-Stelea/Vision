@@ -1,0 +1,22 @@
+﻿Build started 1/25/2016 4:06:04 PM.
+     1>Project "C:\Users\Vlad\Documents\Visual Studio 2015\Projects\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (ConsoleApplication4.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /Ic:\opencv\build\x64\vc12\..\..\include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt Source.cpp
+         Source.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:".\Vision.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:c:\opencv\build\x64\vc12\lib opencv_ts300.lib opencv_world300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:".\Vision.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Vision.lib" /MACHINE:X64 x64\Release\Source.obj
+         "x64\Release\Color Detection.obj"
+         x64\Release\zones.obj
+         Generating code
+         3 of 254 functions ( 1.2%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           10 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         ConsoleApplication4.vcxproj -> C:\Users\Vlad\Documents\Visual Studio 2015\Projects\ConsoleApplication4\ConsoleApplication4\.\Vision.exe
+     1>Done Building Project "C:\Users\Vlad\Documents\Visual Studio 2015\Projects\ConsoleApplication4\ConsoleApplication4\ConsoleApplication4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.10
